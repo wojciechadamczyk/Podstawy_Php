@@ -5,7 +5,7 @@ Stwórz statyczną stronę z formularzem, która prosi o imię użytkownika, a p
 
 ### Wskazówki:
 1. Formularz ma przekierowywać na tą samą stronę.
-2. Na samym początku sprawdź czy strona została wygenerowana przez zapytanie GET czy POST (użyj if i $_SERVER['REQUEST_METHOD'])
+2. Na samym początku sprawdź czy strona została wygenerowana przez zapytanie ```GET``` czy ```POST``` (użyj if i ```$_SERVER['REQUEST_METHOD']```)
 3. Sprawdź czy w tablicy POST znajduje się poprawna zmienna.
 4. Jeżeli coś nie działa – debuguj!!!
 
@@ -18,7 +18,7 @@ Napisz prosty symulator Lotto. Symulator ma się składać z strony z formularze
 3. Jeżeli strona jest wygenerowana z post – zobacz czy przesyłaś sobie wszystkie dane. Możesz zrobić to za pomocą ```var_dump($_POST);```,
 
 ## Warsztat 2b - Symulator Lotto (rozszerzony).
-Rozszerz symulator z poprzedniego zadania. Ma on przyjmować w postaci danych GET informacje na temat rozpiętości liczb (np. ?start=5&end=30) i działać dla podanego przedziału.
+Rozszerz symulator z poprzedniego zadania. Ma on przyjmować w postaci danych ```GET``` informacje na temat rozpiętości liczb (np. ```?start=5&end=30```) i działać dla podanego przedziału.
 Czyli możemy zrobić lotto gdzie liczby są losowane z przedziału 5-30.
 
 ## Warsztat 3 - Ostatnie odwiedziny.
@@ -35,5 +35,5 @@ Stwórz aplikację która będzie służyć do trzymania prostej listy zadań. S
 ### Wskazówki:
 1. Korzystaj z sesji do trzymania zadań.
 2. Zadania trzymaj w tabelce.
-3. Jeżeli strona jest generowania przez POST to dodaj zadanie.
+3. Jeżeli strona jest generowania przez ```POST``` to dodaj zadanie.
 4. Do trzymania zadań w ciasteczku użyj funkcje serialize, a do wczytania unserialize.
