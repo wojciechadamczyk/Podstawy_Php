@@ -29,10 +29,10 @@ Liczba doskonała to taka, która jest równa sumie swoich dzielników. Przykła
 Napisz skrypt, który podaną przez użytkownika kwotę pieniędzy (liczba całkowita) rozmieni na jak najmniejszą ilość monet i banknotów o nominałach 1, 2, 5, 10 złotych.
 Przykład: 
 * 188 zł Zostanie rozmienione na:
-** 18 banknotów 10 zł
-** 1 moneta 5zł
-** 1 moneta 2zł
-** 1 moneta 1zł
+  * 18 banknotów 10 zł
+  * 1 moneta 5zł
+  * 1 moneta 2zł
+  * 1 moneta 1zł
 
 W skrypcie należy zdefiniować funkcję, w której zadana kwota oraz ilości poszczególnych monet są parametrami funkcji. Funkcja ta powinna wypisywać wynik obliczeń na stronie.
 
