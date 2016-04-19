@@ -15,22 +15,23 @@ Napisz dwie funkcje:
 ### Ćwiczenie 3
 Napisz funkcję, która wyświetli największą liczbę spośród liczb znajdujących się w tablicy liczb całkowitych.
 Funkcja ma przyjmować jeden parametr – tablicę.
+Spróbuj rozwiązać to zadanie na 2 różne sposoby.
 
 ### Ćwiczenie 4
-Napisz funkcję, która wyświetli te liczby w tablicy które są mniejsze od średniej arytmetycznej wszystkich liczb w tablicy
+Napisz funkcję, która wyświetli te liczby w tablicy, które są mniejsze od średniej arytmetycznej wszystkich liczb w tablicy.
 
 ### Ćwiczenie 5
 Napisz funkcję, która sprawdza, czy zmienna przekazana jako pierwszy parametr występuje w tablicy przekazanej jako drugi parametr. 
 Jeżeli tak, funkcja powinna zwrócić logiczną prawdę (```true```) a jeżeli nie to fałsz (```false```).
 
 ### Ćwiczenie 6
-Napisz funkcję ```createMultiTable($n)```. Funkcja ta przyjmuje liczbę całkowitą. Funkcja ta ma zwrócić dwuwymiarową tablicę, która w obu wymiarach ma podaną wielkość (tablicę możewsz wypełnić kolejnymi liczbami całkowitymi).
+Napisz funkcję ```createMultiTable($n)```. Funkcja ta przyjmuje liczbę całkowitą. Funkcja ta ma zwrócić dwuwymiarową tablicę, która w obu wymiarach ma podaną wielkość (tablicę możesz wypełnić kolejnymi liczbami całkowitymi).
 
 ## Ćwiczenia do zrobienia w domu
 
 ### Ćwiczenie 1
-Przerób funkcję z ćwiczenia 5 (zadania które trzeba było zrobić w klasie) w taki sposób żeby przyjmowała jeszcze 3 argument. Argument ma być przekazywany przez refenrecję.
-Jeżeli funkcja znajdzie szukany element w tablicy powinna zapisać indeks pod którym wystąpiła szukany element w argumencie przekazanym przez referencje.
+Przerób funkcję z ćwiczenia 5 (zadania które trzeba było zrobić podczas zajęć) w taki sposób żeby przyjmowała jeszcze 3 argument. Argument ma być przekazywany przez referencję.
+Jeżeli funkcja znajdzie szukany element w tablicy powinna zapisać indeks pod którym wystąpił szukany element w argumencie przekazanym przez referencje.
 
 Zobacz co się zmieni jeżeli przekażesz ten argument nie używając referencji. Postaraj się wyjaśnić dlaczego tak się dzieje.
 

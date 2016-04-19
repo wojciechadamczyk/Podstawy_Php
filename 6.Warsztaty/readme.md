@@ -14,7 +14,7 @@ Napisz prosty symulator Lotto. Symulator ma się składać z strony z formularze
 
 ### Wskazówki:
 1. Wygeneruj formularz pętlą for i checkboxami.
-2. Napisz funkcję która generuje 6 losowych liczb z podanego zakresu. Najprostrzym sposobem generowanie 6 różnych liczb z podanego zakresu jest stworzenie tablicy z liczbami z tego zakresu, następnie przetasowanie jej i wybranie 6 pierwszych liczb znajdujących się w tej tablicy. Funkcje które Ci pomogą: array_key_exists, shuffle, array_slice, range.
+2. Napisz funkcję która generuje 6 losowych liczb z podanego zakresu. Najprostrzym sposobem generowanie 6 różnych liczb z podanego zakresu jest stworzenie tablicy z liczbami z tego zakresu, następnie przetasowanie jej i wybranie 6 pierwszych liczb znajdujących się w tej tablicy. Funkcje które Ci pomogą: [array_key_exists][array_key_exists], [shuffle][shuffle], [array_slice][array_slice], [range][range].
 3. Jeżeli strona jest wygenerowana z post – zobacz czy przesyłaś sobie wszystkie dane. Możesz zrobić to za pomocą ```var_dump($_POST);```,
 
 ## Warsztat 2b - Symulator Lotto (rozszerzony).
@@ -26,7 +26,7 @@ Stwórz stronę, która wita gości i mówi im kiedy ostatnio byli na naszej str
 
 ### Wskazówki:
 1. Korzystaj z ciasteczek do zapisania danych kiedy user był na stronie.
-2. Uzależnij komunikat od istnienia ciasteczka (pierwszy raz jak odwiedzamy stronę to ma być inny niż zazwyczaj).
+2. Uzależnij komunikat od istnienia ciasteczka (podczas pierwszych odwiedzin strony wyświetl odpowiedni komunikat).
 3. Usuwanie ciasteczka zrób na osobnej stronie. 
 
 ## Warsztat 4 - Lista zadań.
@@ -37,3 +37,9 @@ Stwórz aplikację która będzie służyć do trzymania prostej listy zadań. S
 2. Zadania trzymaj w tabelce.
 3. Jeżeli strona jest generowania przez ```POST``` to dodaj zadanie.
 4. Do trzymania zadań w ciasteczku użyj funkcje serialize, a do wczytania unserialize.
+
+<!-- Links -->
+[array_key_exists]:https://secure.php.net/manual/en/function.array-key-exists.php
+[shuffle]:https://secure.php.net/manual/en/function.shuffle.php
+[array_slice]:https://secure.php.net/manual/en/function.array-slice.php
+[range]:https://secure.php.net/manual/en/function.range.php

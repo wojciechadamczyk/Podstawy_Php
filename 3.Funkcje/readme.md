@@ -34,7 +34,7 @@ Przykład:
   * 1 moneta 2zł
   * 1 moneta 1zł
 
-W skrypcie należy zdefiniować funkcję, w której zadana kwota oraz ilości poszczególnych monet są parametrami funkcji. Funkcja ta powinna wypisywać wynik obliczeń na stronie.
+W skrypcie należy zdefiniować funkcję, w której zadana kwota oraz ilości poszczególnych monet są parametrami funkcji (użyj referencji). Funkcja ta powinna wypisywać wynik obliczeń na stronie.
 
 ### Ćwiczenie 4
 Napisz funkcję ``max2``, która zwraca większą z dwóch podanych jako jej parametry liczb, a następnie funkcję ``max3``, zwracającą największą spośród trzech podanych liczb. 
@@ -53,6 +53,6 @@ output -> "Gracz 1 wygrał"
 ```
 
 ## Ćwiczenia do zrobienia w domu
-Zajrzyj do plików homework1.php aż do homework5.php. Znajdują się tam kawałki kodu i możliwe ich wyniki zapisane w komentarzy. 
+Zajrzyj do plików homework1.php aż do homework5.php. Znajdują się tam kawałki kodu i możliwe ich wyniki zapisane w komentarzach. 
 Zaznacz która odpowiedź jest poprawna i dopisz dlaczego tak uważasz.
-Postaraj się wybrać którąś odpowiedź zanim uruchomisz plik!
+***Postaraj się wybrać którąś odpowiedź zanim uruchomisz plik!***
