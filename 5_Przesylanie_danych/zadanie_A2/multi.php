@@ -8,7 +8,7 @@
 <html lang="pl-PL">
 <head>
     <meta charset="UTF-8">
-    <title>Zadanie B1</title>
+    <title>Zadanie A2</title>
 </head>
 <body>
 

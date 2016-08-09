@@ -1,13 +1,11 @@
 <?php
 
-// Tutaj umieść kod, który będzie zarządzał sesją i dodawał oceny do tabelki.
-// Pamiętaj o tym, że po dodaniu oceny do tabelki wczytanej z sesji musisz tabelkę jeszcze raz umieścić w sesji (inaczej nie będzie tam nowo dodanej oceny.)
-// Tutaj też oblicz średnią.
+// tutaj umieść kod który będzie przeliczał waluty
 
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
 <head>
     <meta charset="UTF-8">
     <title>Zadanie B4</title>
@@ -16,14 +14,23 @@
 
 <?php
 
-// Tutaj wyświetl wszystkie oceny i ich średnią
+// Tutaj umieść kod który będzie wyświetlał przeliczoną walutę
 
 ?>
 
 <form action="#" method="POST">
     <label>
-        Ocena:
-        <input type="number" step="1" name="grade">
+        Kwota:
+        <input type="number" min="0.00" step="0.01" name="cashAmount">
+    </label>
+    <label>
+        Konwersja:
+        <input type="radio" name="conversionType" value="EURtoUSD" checked> EUR → USD <br>
+        <input type="radio" name="conversionType" value="USDtoEUR" > USD → EUR <br>
+        <input type="radio" name="conversionType" value="EURtoPLN" > EUR → PLN <br>
+        <input type="radio" name="conversionType" value="PLNtoEUR" > PLN → USD <br>
+        <input type="radio" name="conversionType" value="USDtoPLN" > USD → PLN <br>
+        <input type="radio" name="conversionType" value="PLNtoUSD" > PLN → USD <br>
     </label>
     <input type="submit">
 </form>

@@ -6,7 +6,7 @@
 ### Zadanie 1 &ndash; rozwiązywane z wykładowcą
 Napisz skrypt, który wyświetli nazwę miesiąca na podstawie zmiennej zawierającej numer miesiąca. Skorzystaj z instrukcji **switch**.
 
-### Zadanie 2 &ndash; rozwiązywane samodzielnie
+### Zadanie 2
 Program dnia pewnego seminarium wygląda następująco:
 * 8&ndash;11 wykłady,
 * 12&ndash;13 dyskusje,

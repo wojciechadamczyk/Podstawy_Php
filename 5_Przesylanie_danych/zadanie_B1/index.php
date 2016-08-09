@@ -1,3 +1,9 @@
+<?php
+
+// tutaj umieść kod sprawdzający czy weszliśmy na stronę POST-em i wczytujący odpowiednie dane do zmiennych.
+
+?>
+
 <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
@@ -8,11 +14,22 @@
 
 <?php
 
-// tutaj wygeneruj kilka linków
-// możesz to zrobić np. za pomocą pętli
+// tutaj umieść kod wyświetlający dane przesłane POST-em
 
 ?>
 
+
+<form action="#" method="POST">
+    <label>
+        Imię:
+        <input type="text" name="userName">
+    </label>
+    <label>
+        Nazwisko:
+        <input type="text" name="userSurname">
+    </label>
+    <input type="submit">
+</form>
 
 </body>
 </html>

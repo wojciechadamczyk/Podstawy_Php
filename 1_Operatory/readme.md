@@ -11,7 +11,7 @@ Jeśli można &ndash; skrypt ma wypisywać, jaki to trójkąt:
 * równoboczny,
 * różnoboczny.
 
-### Zadanie 2 &ndash; rozwiązywane samodzielnie
+### Zadanie 2
 Stwórz trzy zmienne (```$a```, ```$b```, ```$c```)z wartościami liczbowymi.
 Napisz skrypt, który dla trzech zmiennych sprawdzi, czy są to liczby trójki pitagorejskiej.
 
@@ -21,5 +21,5 @@ a^2 + b^2 = c^2
 ```
 Pamiętaj, żeby sprawdzić wszystkie trzy możliwości ułożenia liczb! Użyj operatorów logicznych.
 
-### Zadanie 3 &ndash; rozwiązywane samodzielnie
+### Zadanie 3
 Napisz skrypt, który obliczy i wyświetli pole oraz obwód prostokąta o bokach zdefiniowanych w zmiennych ```$bokA``` i ```$bokB```.

@@ -26,7 +26,7 @@ Liczba doskonała jest równa sumie swoich dzielników. Przykładami takich licz
 * 6 = 1+2+3.
 
 
-### Zadanie 3 &ndash; do rozwiązania samodzielnego
+### Zadanie 3
 Napisz skrypt, który podaną przez użytkownika kwotę rozmieni na jak najmniejszą liczbę monet i banknotów o nominałach 1, 2, 5, 10 zł.
 Przykład:
 * 188 zł zostanie rozmienione na:
@@ -38,10 +38,10 @@ Przykład:
 Funkcja przyjmuje liczby całkowite, czyli podana kwota ma być w pełnych złotych.
 W skrypcie należy zdefiniować funkcję, w której kwota oraz liczba poszczególnych monet są parametrami funkcji (użyj referencji). Funkcja ta powinna wypisywać wynik obliczeń na stronie.
 
-### Zadanie 4 &ndash; do rozwiązania samodzielnego
+### Zadanie 4
 Napisz funkcję `max2`. Funkcja przyjmuje dwie liczby, a następnie zwraca większą z nich. Następnie napisz funkcję `max3` zwracającą największą spośród trzech podanych liczb. Funkcja `max3` ma do tego celu używać funkcji `max2`.
 
-### Zadanie 5 &ndash; do rozwiązania samodzielnego
+### Zadanie 5
 Napisz funkcję `rockPaperScissors(player1, player2)`, która przyjmuje dwa napisy i na ich podstawie zwraca informacje, kto wygrał. Prawidłowe napisy przyjmowane przez funkcję to: papier, nożyce, kamien.
 
 Funkcja ma zwracać jeden z czterech napisów:

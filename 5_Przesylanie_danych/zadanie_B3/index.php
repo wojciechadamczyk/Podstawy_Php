@@ -1,6 +1,6 @@
 <?php
 
-// tutaj umieść kod który będzie przeliczał waluty
+// tutaj umieść kod który będzie przeliczał stopnie (najlepiej napisz do tego funkcję i jej użyj)
 
 ?>
 
@@ -14,25 +14,17 @@
 
 <?php
 
-// Tutaj umieść kod który będzie wyświetlał przeliczoną walutę
+// Tutaj umieść kod który będzie wyświetlał przeliczoną wartość
 
 ?>
 
 <form action="#" method="POST">
     <label>
-        Kwota:
-        <input type="number" min="0.00" step="0.01" name="cashAmount">
+        Temperatura:
+        <input type="number" min="0.00" step="0.01" name="degrees">
     </label>
-    <label>
-        Konwersja:
-        <input type="radio" name="conversionType" value="EURtoUSD" checked> EUR → USD <br>
-        <input type="radio" name="conversionType" value="USDtoEUR" > USD → EUR <br>
-        <input type="radio" name="conversionType" value="EURtoPLN" > EUR → PLN <br>
-        <input type="radio" name="conversionType" value="PLNtoEUR" > PLN → USD <br>
-        <input type="radio" name="conversionType" value="USDtoPLN" > USD → PLN <br>
-        <input type="radio" name="conversionType" value="PLNtoUSD" > PLN → USD <br>
-    </label>
-    <input type="submit">
+    <input type="submit" name="convertionType" value="celcToFahr">
+    <input type="submit" name="convertionType" value="FahrToCelc">
 </form>
 
 </body>
