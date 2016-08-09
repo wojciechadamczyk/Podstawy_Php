@@ -1,8 +1,8 @@
 <?php
 
-// tutaj umieść kod który będzie zarządzał sesją i dodawał ocenty do tabelki.
-// Pamiętaj o tym że po dodaniu oceny do tabelki wczytanej z sesji musisz tabelkę jeszcze raz umieścić w sesji (inaczej nie będzie tam nowo dodanej oceny)
-// Tutaj też oblicz średnią
+// Tutaj umieść kod, który będzie zarządzał sesją i dodawał oceny do tabelki.
+// Pamiętaj o tym, że po dodaniu oceny do tabelki wczytanej z sesji musisz tabelkę jeszcze raz umieścić w sesji (inaczej nie będzie tam nowo dodanej oceny.)
+// Tutaj też oblicz średnią.
 
 ?>
 
@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ćwiczenie 6</title>
+    <title>Zadanie B4</title>
 </head>
 <body>
 

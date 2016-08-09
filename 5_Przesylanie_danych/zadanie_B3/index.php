@@ -5,10 +5,10 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
 <head>
     <meta charset="UTF-8">
-    <title>Ćwiczenie 5</title>
+    <title>Zadanie B3</title>
 </head>
 <body>
 

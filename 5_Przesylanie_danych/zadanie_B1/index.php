@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
 <head>
     <meta charset="UTF-8">
-    <title>Ćwiczenie 4</title>
+    <title>Zadanie B1</title>
 </head>
 <body>
 

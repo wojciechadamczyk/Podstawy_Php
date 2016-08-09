@@ -1,20 +1,20 @@
 <?php
 
-// tutaj umieść kod który będzie cenzurował napis
+// tutaj umieść kod cenzurujący napis
 
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
 <head>
     <meta charset="UTF-8">
-    <title>Ćwiczenie 4</title>
+    <title>Zadanie B2</title>
 </head>
 <body>
 
 <?php
 
-// tutaj umieść kod który będzie wyświetlał napis
+// tutaj umieść kod cenzurujący napis
 
 ?>
 
