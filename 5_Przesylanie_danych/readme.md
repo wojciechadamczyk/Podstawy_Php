@@ -79,6 +79,11 @@ W tym zadaniu stwórz dwie strony.
 Na pierwszej stronie wyświetl wszystkie ciasteczka, do których masz dostęp. Przy każdym z nich wygeneruj link do drugiej strony przekazując GET-em nazwę ciasteczka.
 Na drugiej stronie poinformuj o tym, że usuwasz ciasteczko i następnie je usuń. Nazwę ciasteczka pobierz z GET.
 
+### Zadanie D4
+Stwórz stronę select_language.php na której znajduje się formularz z elementem <select> oraz dwoma opcjami wyboru - język Polski i język Angielski. 
+Strona ma przesyłać dane za pomocą POST do strony set_language.php która ma nastawić ciasteczko `lnaguage` na wartość wybraną przez użytkownika. 
+Po ponownym wejściu na stronę select_language.php powinna być wyświetlana informacja o wybranym przez użytkownika języku. 
+
 
 <!-- Links -->
 [all-cookies]:http://stackoverflow.com/questions/9577029/can-i-display-all-the-cookies-i-set-in-php

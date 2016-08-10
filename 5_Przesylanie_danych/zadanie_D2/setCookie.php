@@ -8,7 +8,7 @@
 <html lang="pl-PL">
 <head>
     <meta charset="UTF-8">
-    <title>Zadanie 21</title>
+    <title>Zadanie D2</title>
 </head>
 <body>
     <form action="#" method="POST">
