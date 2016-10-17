@@ -1,7 +1,7 @@
 <?php
 
 // tutaj umieść kod nastawiający wartośc w ciasteczku
-
+setcookie('User', 'Wojtek');
 ?>
 
 <!DOCTYPE html>

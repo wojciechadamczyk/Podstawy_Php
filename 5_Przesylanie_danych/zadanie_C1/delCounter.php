@@ -1,7 +1,7 @@
 <?php
-
+session_start();
 // tutaj umieść kod usuwający wartośc z sesji
-
+unset($_SESSION['counter']);
 ?>
 
 <!DOCTYPE html>

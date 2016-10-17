@@ -1,7 +1,7 @@
 <?php
 
 // tutaj umieść kod wczytujący wartośc z ciasteczka
-
+setcookie('User', '', time()-1);
 ?>
 
 <!DOCTYPE html>

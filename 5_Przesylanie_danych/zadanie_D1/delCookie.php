@@ -1,7 +1,13 @@
 <?php
 
 // tutaj umieść kod usuwający wartośc z ciasteczka
+var_dump($_COOKIE);
 
+if (isset($_COOKIE['User'])) {
+    $name = $_COOKIE['User'];
+} else {
+    $name = " - ";
+}
 ?>
 
 <!DOCTYPE html>

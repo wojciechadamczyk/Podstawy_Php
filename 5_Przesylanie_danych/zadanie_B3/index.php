@@ -1,7 +1,14 @@
 <?php
-
+var_dump ($_POST)
 // tutaj umieść kod który będzie przeliczał stopnie (najlepiej napisz do tego funkcję i jej użyj)
-
+if (
+        $_SERVER['REQUEST_METHOD'] === "POST"
+        isset($_POST['name']) &&
+        isset($_POST['value'])
+        
+        ) {
+    
+}
 ?>
 
 <!DOCTYPE html>

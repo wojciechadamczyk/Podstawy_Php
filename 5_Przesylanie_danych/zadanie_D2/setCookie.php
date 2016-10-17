@@ -1,5 +1,5 @@
 <?php
-
+if (isset ($_POST[]) )
 // tutaj umieść kod nastawiający wartośc w ciasteczku, ale tylko jeżeli wszeliśmy na stronę metodą POST
 
 ?>
